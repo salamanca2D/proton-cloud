@@ -1,0 +1,114 @@
+// Font Variables
+$font_h: 'Orbitron'
+$font_f: 'Roboto'
+  
+.FORM_CONTENT
+  text-align: center
+  /*padding: 5px 0px*/
+  height: min-content
+  margin: auto
+  user-select: text !important // supported by Chrome and Opera
+  -webkit-user-select: text !important // Safari
+  -khtml-user-select: text !important // Konqueror HTML
+  -moz-user-select: text !important // Firefox
+  -ms-user-select: text !important // Internet Explorer/Edge 
+
+.FORM_CONTENT_CHILD
+  display: block
+  font-size: 16px
+
+.c-form
+  width: 700px
+  display: inline-block
+
+.c-formA
+  float: left
+
+.c-formB
+  float: right
+
+.c-form input,textarea
+  color: rgb(100,100,100)
+
+.c-full-width
+  width: 100%
+
+.c-h
+  width: 47%
+
+.button
+  font-size: 18px
+
+.CAPTCHA
+  display: inline-block
+  padding-bottom: 15px
+
+.c-hspace
+    display: none
+
+.HTEXT
+  font-family: $font_f
+  font-size: 25px
+  opacity: .7
+
+.DTEXT
+  font-family: $font_f
+  font-size: 15px
+  opacity: .4
+  display: inline-block
+  width: 80%
+  margin-top: 2vh
+  margin-bottom: 4vh
+
+//TABLET
+@media (max-width: 1024px)
+  .c-form
+    width: 65%
+
+  .c-h
+    width: 100%
+
+  .c-formA
+    float: none
+
+  .c-formB
+    float: none
+
+  .FORM_CONTENT_CHILD
+    font-size: 15px
+
+  .C_ASUNTO
+    height: 10em
+ 
+//MOBIL
+@media (max-width: 640px)
+  .c-form
+    width: 90%
+   
+  .c-h
+    width: 100%
+
+  .FORM_CONTENT_CHILD
+    font-size: 12px
+
+  .C_ASUNTO
+    height: 8em
+
+  .c-formA
+    float: none
+
+  .c-formB
+    float: none
+
+  .button
+    width: 90%
+
+  .HTEXT
+    font-size: 18px
+    opacity: .7
+
+  .DTEXT
+    font-size: 12px
+    width: 90%
+    margin-top: 1vh
+    margin-bottom: 2vh

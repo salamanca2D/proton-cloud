@@ -1,0 +1,111 @@
+// Font Variables
+$font_h: 'Orbitron'
+$font_f: 'Roboto'
+
+.H_HEADER
+    display: block
+    position: relative
+    background-color: rgb(30,30,30)
+    height: 125px
+    padding: 15px 0px 15px 0px
+
+.BC
+    float: left
+
+.BOX_1
+    position: relative
+    width: 85%
+    height: 100%
+    text-align: center
+
+.BOX_2
+    position: relative
+    height: 100%
+    width: 15%
+    text-align: left
+
+.H_NAME
+    position: relative
+    font-family: $font_h
+    font-weight: 800
+    color: white
+    font-size: min(6vw, 80px)
+    line-height: 125px
+    display: inline
+    margin-left: 14vw
+
+.H_LABEL
+    position: absolute
+    color: white
+    font-family: $font_f
+    font-size: min(1.18vw, 15.5px)
+    font-weight: 500
+    text-align: right
+    right: 0px
+    bottom: -5px
+    line-height: normal
+    letter-spacing: 0.035vw
+
+.H_IMG_C
+    width: auto
+    height: 100%
+
+.CANV
+    position: absolute
+    left: 0
+    top: 0
+
+.BG
+    //background-image: repeating-linear-gradient(90deg, hsla(240,0%,35%,0.05) 0px, hsla(240,0%,35%,0.05) 1px,transparent 1px, transparent 91px),repeating-linear-gradient(45deg, hsla(240,0%,35%,0.05) 0px, hsla(240,0%,35%,0.05) 1px,transparent 1px, transparent 91px),repeating-linear-gradient(0deg, hsla(240,0%,35%,0.05) 0px, hsla(240,0%,35%,0.05) 1px,transparent 1px, transparent 61px),repeating-linear-gradient(90deg, hsla(240,0%,35%,0.05) 0px, hsla(240,0%,35%,0.05) 1px,transparent 1px, transparent 61px),repeating-linear-gradient(90deg, hsla(240,0%,35%,0.05) 0px, hsla(240,0%,35%,0.05) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(0deg, hsla(240,0%,35%,0.05) 0px, hsla(240,0%,35%,0.05) 1px,transparent 1px, transparent 16px),linear-gradient(90deg, hsl(83,8%,8%),hsl(83,8%,8%))
+    background-image: linear-gradient(200deg, rgba(213, 213, 213, 0.01) 0%, rgba(213, 213, 213, 0.01) 14.286%,rgba(140, 140, 140, 0.01) 14.286%, rgba(140, 140, 140, 0.01) 28.572%,rgba(52, 52, 52, 0.01) 28.572%, rgba(52, 52, 52, 0.01) 42.858%,rgba(38, 38, 38, 0.01) 42.858%, rgba(38, 38, 38, 0.01) 57.144%,rgba(159, 159, 159, 0.01) 57.144%, rgba(159, 159, 159, 0.01) 71.42999999999999%,rgba(71, 71, 71, 0.01) 71.43%, rgba(71, 71, 71, 0.01) 85.71600000000001%,rgba(88, 88, 88, 0.01) 85.716%, rgba(88, 88, 88, 0.01) 100.002%),linear-gradient(337deg, rgba(25, 25, 25, 0.01) 0%, rgba(25, 25, 25, 0.01) 12.5%,rgba(150, 150, 150, 0.01) 12.5%, rgba(150, 150, 150, 0.01) 25%,rgba(84, 84, 84, 0.01) 25%, rgba(84, 84, 84, 0.01) 37.5%,rgba(85, 85, 85, 0.01) 37.5%, rgba(85, 85, 85, 0.01) 50%,rgba(188, 188, 188, 0.01) 50%, rgba(188, 188, 188, 0.01) 62.5%,rgba(80, 80, 80, 0.01) 62.5%, rgba(80, 80, 80, 0.01) 75%,rgba(73, 73, 73, 0.01) 75%, rgba(73, 73, 73, 0.01) 87.5%,rgba(219, 219, 219, 0.01) 87.5%, rgba(219, 219, 219, 0.01) 100%),linear-gradient(203deg, rgba(233, 233, 233, 0.01) 0%, rgba(233, 233, 233, 0.01) 25%,rgba(114, 114, 114, 0.01) 25%, rgba(114, 114, 114, 0.01) 50%,rgba(164, 164, 164, 0.01) 50%, rgba(164, 164, 164, 0.01) 75%,rgba(228, 228, 228, 0.01) 75%, rgba(228, 228, 228, 0.01) 100%),linear-gradient(317deg, rgba(139, 139, 139, 0.02) 0%, rgba(139, 139, 139, 0.02) 16.667%,rgba(44, 44, 44, 0.02) 16.667%, rgba(44, 44, 44, 0.02) 33.334%,rgba(166, 166, 166, 0.02) 33.334%, rgba(166, 166, 166, 0.02) 50.001000000000005%,rgba(2, 2, 2, 0.02) 50.001%, rgba(2, 2, 2, 0.02) 66.668%,rgba(23, 23, 23, 0.02) 66.668%, rgba(23, 23, 23, 0.02) 83.33500000000001%,rgba(21, 21, 21, 0.02) 83.335%, rgba(21, 21, 21, 0.02) 100.002%),linear-gradient(328deg, rgba(3, 3, 3, 0.03) 0%, rgba(3, 3, 3, 0.03) 12.5%,rgba(116, 116, 116, 0.03) 12.5%, rgba(116, 116, 116, 0.03) 25%,rgba(214, 214, 214, 0.03) 25%, rgba(214, 214, 214, 0.03) 37.5%,rgba(217, 217, 217, 0.03) 37.5%, rgba(217, 217, 217, 0.03) 50%,rgba(68, 68, 68, 0.03) 50%, rgba(68, 68, 68, 0.03) 62.5%,rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%,rgba(200, 200, 200, 0.03) 75%, rgba(200, 200, 200, 0.03) 87.5%,rgba(198, 198, 198, 0.03) 87.5%, rgba(198, 198, 198, 0.03) 100%),linear-gradient(97deg, rgba(195, 195, 195, 0.03) 0%, rgba(195, 195, 195, 0.03) 16.667%,rgba(177, 177, 177, 0.03) 16.667%, rgba(177, 177, 177, 0.03) 33.334%,rgba(170, 170, 170, 0.03) 33.334%, rgba(170, 170, 170, 0.03) 50.001000000000005%,rgba(158, 158, 158, 0.03) 50.001%, rgba(158, 158, 158, 0.03) 66.668%,rgba(121, 121, 121, 0.03) 66.668%, rgba(121, 121, 121, 0.03) 83.33500000000001%,rgba(146, 146, 146, 0.03) 83.335%, rgba(146, 146, 146, 0.03) 100.002%),linear-gradient(268deg, rgba(103, 103, 103, 0.03) 0%, rgba(103, 103, 103, 0.03) 25%,rgba(112, 112, 112, 0.03) 25%, rgba(112, 112, 112, 0.03) 50%,rgba(4, 4, 4, 0.03) 50%, rgba(4, 4, 4, 0.03) 75%,rgba(227, 227, 227, 0.03) 75%, rgba(227, 227, 227, 0.03) 100%),linear-gradient(90deg, hsl(98,0%,0%),hsl(98,0%,0%))
+
+//TABLET    
+@media screen and (max-width: 1024px)
+    
+    .H_HEADER
+        height: 85px
+        padding: 10px 0px 10px 0px
+
+    .H_NAME
+        font-size: 6.5vw
+        line-height: 85px
+        margin-left: 14vw
+
+    .H_LABEL
+        font-size: 1.50vw
+        text-align: right
+        right: 0px
+        bottom: -7px
+        line-height: normal
+        letter-spacing: 0.2vw
+
+//MOBIL
+@media screen and (max-width: 640px)
+
+    .BG
+        background-image: repeating-linear-gradient(0deg, hsla(202,0%,65%,0.08) 0px, hsla(202,0%,65%,0.08) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(90deg, hsla(202,0%,65%,0.08) 0px, hsla(202,0%,65%,0.08) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20))
+
+    .BOX_2
+        display: none
+
+    .H_HEADER
+        height: 60px
+        padding: 5px 0px 5px 0px
+
+    .BOX_1
+        width: 100%
+
+    .H_NAME
+        font-size: 7.0vw
+        line-height: 60px
+        margin-left: 0vw
+
+    .H_LABEL
+        font-size: 1.7vw
+        text-align: center
+        right: 0px
+        left: 0px
+        margin: auto
+        bottom: -6px
+        letter-spacing: 0.55vw
+

@@ -23,6 +23,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
     FooterComponent,
     MenuComponent,
     ContactComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

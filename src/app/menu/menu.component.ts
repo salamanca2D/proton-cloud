@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, ViewChild } from '@angular/core';
+import {SkillsComponent} from '../skills/skills.component';
 
 @Component({
   selector: 'app-menu',
@@ -8,11 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild(SkillsComponent) child: SkillsComponent;
+
+  constructor() { } 
  
 
   ngOnInit(): void {
+
   }
  
+  public CHANGE(e:any)
+  {
+    if (e.index === 1)
+    {
+      setTimeout(()=>{
+        this.child.RUN_ANIM();
+      },600);
+    }
+  }
 
 }

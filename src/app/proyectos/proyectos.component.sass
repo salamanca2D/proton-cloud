@@ -9,6 +9,7 @@
 
 .card
     max-width: 400px
+    margin: auto
     cursor: pointer
 
 .card:hover .BUTTON_V
@@ -32,6 +33,22 @@
   background-size: cover
 
 .header-image-2
-  background-image: url('http://salamanca.pythonanywhere.com/static/favicon.ico')
+  background-image: url('https://salamanca.pythonanywhere.com/static/favicon.ico')
   background-size: cover
 
+//MOBIL
+@media (max-width: 640px)
+    .content_c
+        width: 90%
+        margin: auto
+        margin-top: 20px
+
+    .content_c p, .mat-card-subtitle
+        font-size: 12px
+
+    .BUTTON_V
+        display: none
+
+    .card
+        border: 2px solid #c7c7c7
+        box-shadow: none

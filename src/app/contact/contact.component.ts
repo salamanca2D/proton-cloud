@@ -116,7 +116,7 @@ export class ContactComponent implements OnInit {
         position: 'center',
         icon: 'warning',
         title: 'Mantenimiento!',
-        html: '<div>contacte con el siguiente correo: <div><b>salamanca.int@gmail.com</b></div></div>',
+        html: '<div><div><b>intente más tarde</b></div></div>',
         showConfirmButton: false,
         timer: 0
       }).then((result) => {

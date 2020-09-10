@@ -15,3 +15,41 @@ $font_f: 'Roboto'
     height: 60px
     line-height: 60px
     z-index: 1
+
+.git
+    position: absolute
+    display: flex
+    flex-direction: row
+    right: 10px
+    font-size: 13px
+    line-height: 45px
+    bottom: 10px
+    border-radius: 5px
+    color: white
+    background-color: #272727
+    padding: 0px 15px
+    cursor: pointer
+    transition: 0.15s
+
+.git:hover
+    background-color: #161616
+    transition: 0.15s
+
+.git img
+    height: 25px
+    margin: auto 0px
+    margin-right: 10px
+    filter: invert(100%)
+
+//MOBIL
+@media screen and (max-width: 640px)
+    .FOOTER
+        display: flex
+        flex-direction: column
+
+    .git
+        position: relative
+        width: 140px
+        margin: auto
+        justify-content: center
+        font-size: 12px

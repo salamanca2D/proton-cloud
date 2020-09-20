@@ -9,6 +9,7 @@
 
 .card
     max-width: 400px
+    /*min-height: 390px*/
     margin: auto
     cursor: pointer
 
@@ -36,12 +37,26 @@
   background-image: url('https://salamanca.pythonanywhere.com/static/favicon.ico')
   background-size: cover
 
+.header-image-3
+  background-image: url('https://2dbyte.com/favicon.ico')
+  background-size: cover
+
+.img-c
+    min-height: 230px
+
+//.mat-card-header
+//    background: red
+
 //MOBIL
 @media (max-width: 640px)
+    .img-c
+        min-height: min-content
+
     .content_c
         width: 90%
         margin: auto
-        margin-top: 20px
+        margin-top: 10px
+        padding-bottom: 2vh 
 
     .content_c p, .mat-card-subtitle
         font-size: 12px
@@ -50,5 +65,6 @@
         display: none
 
     .card
-        border: 2px solid #c7c7c7
+        background-color: #c5c5c50e
+        border: 1.5px solid #d6d6d6
         box-shadow: none

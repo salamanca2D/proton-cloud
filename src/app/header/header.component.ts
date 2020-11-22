@@ -14,10 +14,18 @@ export class HeaderComponent implements OnInit {
   public WT: number;
   public COL1 = "rgba(0,0,0,0)";
   public COL2 = "rgba(0,0,0,0)";
+/*
   public COL1A = "rgba(50,50,225,0.1)";
   public COL2A = "rgba(150,0,200,0.6)";
+
   public COL1B = "rgba(50,50,225,0.25)";
   public COL2B = "rgba(150,0,200,0.75)";
+*/
+  public COL1A = "rgba(5,50,230,0.1)";
+  public COL2A = "rgba(0,140,200,0.6)";
+
+  public COL1B = "rgba(5,50,230,0.25)";
+  public COL2B = "rgba(0,140,200,0.75)";
   public animation: any;
 
   ngOnInit(): void {
